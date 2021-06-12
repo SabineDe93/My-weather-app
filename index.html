@@ -1,12 +1,108 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My weather app</title>
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Sabines WeatherApp</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/17e94f0b2c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
-    <h1>Sabines Weather App</h1>
+    <div class="container">
+      <hr />
+      <form id="search-form">
+        <span class="submit">
+          <input type="submit" value="Search" />
+          <input
+            type="text"
+            placeholder="Location"
+            autocomplete="off"
+            autofocus="on"
+            id="search-text-input"
+          />
+        </span>
+      </form>
+      <h1 id="city">City</h1>
+      <h2>Date</h2>
+      <h3 id="condition">sunny</h3>
+      <ul>
+        <li id="temperature">18</li>
+        <li id="units">°C</li>
+      </ul>
+      <div class="box">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="image">
+              <img src="Images/Wetter.JPG" width="240" />
+            </div>
+          </div>
+          <br />
+          <br />
+          <div class="col-sm-6">
+            <i class="fas fa-cloud-sun"> </i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="forecast-day">DAY 2</div>
+            <div class="forecast-icon">⛈</div>
+            <div class="forecast-temperature">2 °C | 35 F</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="forecast-day">DAY 3</div>
+            <div class="forecast-icon">🌫</div>
+            <div class="forecast-temperature">2 °C | 35 F</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="forecast-day">DAY 4</div>
+            <div class="forecast-icon">🌤</div>
+            <div class="forecast-temperature">2 °C | 35 F</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="forecast-day">DAY 5</div>
+            <div class="forecast-icon">🌤</div>
+            <div class="forecast-temperature">2 °C | 35 F</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="forecast-day">DAY 6</div>
+            <div class="forecast-icon">🌥</div>
+            <div class="forecast-temperature">2 °C | 35 F</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="forecast-day">DAY 7</div>
+            <div class="forecast-icon">🌥</div>
+            <div class="forecast-temperature">2 °C | 35 F</div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <hr />
+      <p class="coder">
+        Coded by
+        <a
+          href="https://www.linkedin.com/in/sabine-debert-106bb9207"
+          target="_blank"
+        >
+          Sabine Debert.
+        </a>
+      </p>
+    </div>
+    <script src="src/index.js"></script>
   </body>
 </html>

@@ -1,0 +1,91 @@
+hr {
+  background: linear-gradient(to right, #80185f, #e0add0);
+}
+h1,
+h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 100;
+  right: 384px;
+  display: inline-block;
+  position: absolute;
+}
+h1 {
+  font-size: 32px;
+  top: 123px;
+  font-weight: bold;
+}
+h2 {
+  color: grey;
+  font-size: 16px;
+  top: 132px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 100;
+  left: 368px;
+  display: inline-block;
+  position: absolute;
+}
+h3 {
+  color: grey;
+  font-size: 19px;
+  top: 179px;
+}
+ul {
+  text-align: right;
+}
+li {
+  display: inline-block;
+  list-style-type: none;
+  color: grey;
+  font-size: 19px;
+  margin: 27px 29px -1px -30px;
+}
+.container {
+  max-width: 671px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 2px auto;
+  padding: 30px 60px;
+}
+.box {
+  margin: -20px auto;
+}
+.submit {
+  display: block;
+  font-size: 12px;
+  text-align: right;
+  margin: 28px;
+  margin-right: 14px;
+}
+.image {
+  display: block;
+}
+.fas,
+.fa {
+  display: inline;
+  text-align: right;
+  font-size: 155px;
+  color: #f1e0f0;
+  line-height: 191px;
+}
+.forecast-day,
+.forecast-temperature,
+.forecast-icon {
+  display: block;
+  text-align: center;
+  top: 145px;
+}
+.forecast-icon {
+  font-size: 50px;
+  color: #fdf2fa;
+}
+.forecast-day,
+.forecast-temperature {
+  color: black;
+  font-weight: 30px;
+}
+.coder {
+  display: block;
+  text-align: right;
+  color: #54595d;
+  font-weight: lighter;
+  font-size: 10px;
+}
